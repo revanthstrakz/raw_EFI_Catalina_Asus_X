@@ -1,0 +1,48 @@
+
+Clover EFI installer log - Sat May  2 15:55:44 IST 2020
+Installer version: r5115 (commit: fbbaa8ad2) EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *214.7 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk2         214.0 GB   disk0s2
+   3:                 Apple_APFS Container disk1         538.6 MB   disk0s3
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +538.6 MB   disk1
+                                 Physical Store disk0s3
+   1:                APFS Volume Untitled                1.5 MB     disk1s1
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +214.0 GB   disk2
+                                 Physical Store disk0s2
+   1:                APFS Volume Revanth-MAC - Data      81.0 GB    disk2s1
+   2:                APFS Volume Preboot                 83.9 MB    disk2s2
+   3:                APFS Volume Recovery                528.1 MB   disk2s3
+   4:                APFS Volume VM                      1.1 MB     disk2s4
+   5:                APFS Volume Revanth-MAC             11.2 GB    disk2s5
+
+/dev/disk3 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *7.8 GB     disk3
+   1:                        EFI EFI                     209.7 MB   disk3s1
+   2:       Microsoft Basic Data CLOVER                  130.0 MB   disk3s2
+   3:                  Apple_HFS Macintosh USB           7.3 GB     disk3s3
+
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/CLOVER/EFIROOTDIR/EFI folder to /Volumes/CLOVER/EFI-Backups/r5115/2020-05-02-15h55/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/CLOVER
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/CLOVER
+Removing UEFI/AptioMemoryFix.efi because OsxAptioFix3Drv.efi is installed
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
